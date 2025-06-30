@@ -1,0 +1,3 @@
+node_modules/
+*.sqlite
+.n8n/credentials 
