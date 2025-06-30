@@ -1,0 +1,24 @@
+{
+  "name": "n8n-project",
+  "version": "1.0.0",
+  "description": "```\r n8n-project/\r ├── docker-compose.yml\r ├── .n8n/                   # All workflow data stored here\r │   └── workflows.json      # Exported workflows\r ├── .gitignore\r └── README.md\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:eventlog": "nodemon --watch .n8n/n8nEventLog.lg --exec './on-eventlog-change.sh'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedfork/n8n-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codedfork/n8n-project/issues"
+  },
+  "homepage": "https://github.com/codedfork/n8n-project#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
